@@ -9,3 +9,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * The Landscaping Process
 * Using Landscape Layers
   * Created a new material in the blueprint and painted the landscape
+* More Landscaping Tools
