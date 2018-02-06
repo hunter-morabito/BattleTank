@@ -10,3 +10,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Using Landscape Layers
   * Created a new material in the blueprint and painted the landscape
 * More Landscaping Tools
+* Actors from Multiple Meshes
+  * Created the Tank pawn using sockets
