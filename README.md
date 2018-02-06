@@ -14,3 +14,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
   * Created the Tank pawn using sockets
 * Configuring a Tank
   * Made the Game Mode blueprint and set the Tank as the default pawn
+* 3rd Person Camera Control
+  * Use the Spring Arm to rotate the camera by mapping input in a blueprint
