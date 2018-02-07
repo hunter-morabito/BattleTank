@@ -18,3 +18,12 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
   * Use the Spring Arm to rotate the camera by mapping input in a blueprint
 * Fixing 3rd Person Camera Rotation
   * Setup a gimbal for the camera to avoid compounding rotation
+* User Interface (UI) in Unreal
+  * Create the reticle for the tank player
+* Main Menu Screens
+  * Created Main Menu Level and imported a start screen image
+* UI Scale Box, Buttons, & Mouse
+* Controller Ready Navigation
+  * Linked the Start Button to Controller Input
+* Trial Packaging Your Game
+  * Packaged and tested the game, found and fixed an input bug
