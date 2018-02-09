@@ -27,3 +27,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
   * Linked the Start Button to Controller Input
 * Trial Packaging Your Game
   * Packaged and tested the game, found and fixed an input bug
+* Delegating to Components
+  * Created new Tank Pawn, and new TankPlayerController PlayerController classes
