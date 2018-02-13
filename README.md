@@ -29,3 +29,6 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
   * Packaged and tested the game, found and fixed an input bug
 * Delegating to Components
   * Created new Tank Pawn, and new TankPlayerController PlayerController classes
+* Using Virtual and Override
+  * Overrode the BeginPlay Method in the TankPlayerController Class
+

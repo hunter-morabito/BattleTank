@@ -18,6 +18,8 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 public:
 	ATank * GetControlledTank() const;
 	
-	
+	// virtual signature means that the method can be overrode by children!
+	// dont need to add overrider to signature in .cpp class
+	void BeginPlay() override;
 	
 };
