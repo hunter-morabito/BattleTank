@@ -31,4 +31,7 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
   * Created new Tank Pawn, and new TankPlayerController PlayerController classes
 * Using Virtual and Override
   * Overrode the BeginPlay Method in the TankPlayerController Class
-
+* Overloading and Polymorphism
+  * Polymorphism Review
+* Virtual Functions and VTables
+* Creating an AI Controller Class
