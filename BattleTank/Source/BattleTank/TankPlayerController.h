@@ -20,6 +20,11 @@ public:
 	
 	// virtual signature means that the method can be overrode by children!
 	// dont need to add overrider to signature in .cpp class
-	void BeginPlay() override;
+	virtual void BeginPlay() override;
 	
+	virtual void Tick(float) override;
+
+	// Start the Tank moving the barrel so that a shot would hit where 
+	// their crosshair intersects the world
+	void AimTowardsCrosshair();
 };
