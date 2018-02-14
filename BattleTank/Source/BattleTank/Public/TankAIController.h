@@ -4,6 +4,7 @@
 
 #include "Tank.h"
 #include "CoreMinimal.h"
+#include "Engine/World.h"
 #include "AIController.h"
 #include "TankAIController.generated.h"
 
@@ -17,7 +18,13 @@ class BATTLETANK_API ATankAIController : public AAIController
 	
 public:
 
-	ATank * GetControlledTank() const;
-	
+	// Returns a casted Pawn as a Tank which is the possessed Tank	 
+	ATank* GetControlledTank() const;
+
+	// Returns the player controlled tank
+	ATank* GetPlayerTank() const;
+
 	void BeginPlay() override;
+
+
 };
