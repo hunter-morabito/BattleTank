@@ -15,7 +15,7 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
-public:
+private:
 	ATank * GetControlledTank() const;
 	
 	// virtual signature means that the method can be overrode by children!
@@ -28,5 +28,11 @@ public:
 	// their crosshair intersects the world
 	void AimTowardsCrosshair();
 
-	bool GetSightRayHitLocation(FVector&) const;
+	bool GetSightRayHitLocation(FVector&)const;
+
+	UPROPERTY(EditAnywhere)
+	float CrossHairXLocation = 0.5f;
+
+	UPROPERTY(EditAnywhere)
+	float CrossHairYLocation = 0.33333f;
 };

@@ -39,3 +39,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
   * Found the Player from the AIController
 * Add Tick() to player controller
 * Creating an Out Parameter Method
+* Finding Screen Pixel Coordinates
+  * Created a method to find a FVector2D of where the crosshair is

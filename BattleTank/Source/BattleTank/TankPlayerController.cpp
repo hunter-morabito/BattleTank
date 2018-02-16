@@ -37,7 +37,7 @@ void ATankPlayerController::AimTowardsCrosshair()
 
 	if (GetSightRayHitLocation(HitLocation)) 
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Hit Location: %s"), *HitLocation.ToString());
+		//UE_LOG(LogTemp, Warning, TEXT("Hit Location: %s"), *HitLocation.ToString());
 		// Get world location if linetrace through crosshair
 	
 		//If it hits the landscape
@@ -47,11 +47,15 @@ void ATankPlayerController::AimTowardsCrosshair()
 }
 
 bool ATankPlayerController::GetSightRayHitLocation(FVector &HitLocation) const {
-	HitLocation = FVector(4, 4, 4);
-	// get camera position 
-	// get dot position
-	// ray cast line 
-	// get where it hits terrain
+	// Find the crosshair position
+	int32 ViewportSizeX, ViewportSizeY;
+	// Fills in the viewport (screen) size
+	GetViewportSize(ViewportSizeX, ViewportSizeY);
+
+	FVector2D ScreenLocation = FVector2D( CrossHairXLocation * ViewportSizeX, CrossHairYLocation * ViewportSizeY);
+
+	// "De-project" the screen position of the crosshair to a world direction 
+	// Lin-trace along that look direction, and see what we hit (up to max range)
 	return true;
 }
 
