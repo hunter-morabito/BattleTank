@@ -28,7 +28,10 @@ private:
 	// their crosshair intersects the world
 	void AimTowardsCrosshair();
 
+	// const means that the member variables in the class cannot be changed!
 	bool GetSightRayHitLocation(FVector&)const;
+
+	bool GetLookDirection(FVector2D,FVector&) const;
 
 	UPROPERTY(EditAnywhere)
 	float CrossHairXLocation = 0.5f;

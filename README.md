@@ -41,3 +41,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Creating an Out Parameter Method
 * Finding Screen Pixel Coordinates
   * Created a method to find a FVector2D of where the crosshair is
+* Using DeprojectScreenToWorld
