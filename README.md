@@ -42,3 +42,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Finding Screen Pixel Coordinates
   * Created a method to find a FVector2D of where the crosshair is
 * Using DeprojectScreenToWorld
+* Using LineTraceSingleByChannel
+  * Get the vector location in World of what the reticle is over
