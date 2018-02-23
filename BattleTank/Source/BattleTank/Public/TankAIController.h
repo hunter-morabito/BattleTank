@@ -18,13 +18,14 @@ class BATTLETANK_API ATankAIController : public AAIController
 	
 public:
 
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
+
 	// Returns a casted Pawn as a Tank which is the possessed Tank	 
 	ATank* GetControlledTank() const;
 
 	// Returns the player controlled tank
 	ATank* GetPlayerTank() const;
-
-	void BeginPlay() override;
-
 
 };
