@@ -23,6 +23,7 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Main Menu Screens
   * Created Main Menu Level and imported a start screen image
 * UI Scale Box, Buttons, & Mouse
+* Mid Section Quiz Complete
 * Unify Player and AI Timing
 * Controller Ready Navigation
   * Linked the Start Button to Controller Input
