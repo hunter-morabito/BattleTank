@@ -19,7 +19,7 @@ public:
 
 	void SetBarrelReference(UStaticMeshComponent* BarrelToSet);
 
-	void AimAt(FVector);
+	void AimAt(FVector, float);
 
 	// Called when the game starts
 	virtual void BeginPlay() override;

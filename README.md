@@ -50,3 +50,6 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Mid Section Quiz
 * Create Default Sub Objects in C++
 * BlueprintCallable()
+* SuggestProjectileVelocity()
+  * Set up the arguments for SuggestProjectileVelocity()
+
