@@ -47,3 +47,6 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Using LineTraceSingleByChannel
   * Get the vector location in World of what the reticle is over
 * Unify Player and AI Aiming
+* Mid Section Quiz
+* Create Default Sub Objects in C++
+* BlueprintCallable()
