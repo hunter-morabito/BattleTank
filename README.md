@@ -52,4 +52,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BlueprintCallable()
 * SuggestProjectileVelocity()
   * Set up the arguments for SuggestProjectileVelocity()
+* Predict Projectile Landing Point
 
