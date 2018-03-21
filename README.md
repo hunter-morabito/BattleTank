@@ -53,4 +53,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * SuggestProjectileVelocity()
   * Set up the arguments for SuggestProjectileVelocity()
 * Predict Projectile Landing Point
+* Using FRotators in Unreal
 

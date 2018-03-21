@@ -20,14 +20,13 @@ public:
 	
 	void SetBarrelReference(UStaticMeshComponent* BarrelToSet);
 
+	// TODO add set barrel reference
+
 	void AimAt(FVector, float);
-
-	// Called when the game starts
-	virtual void BeginPlay() override;
-
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
 	UStaticMeshComponent* Barrel = nullptr;
+
+	void MoveBarrelTowards(FVector);
 	
 };
