@@ -40,6 +40,7 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 		0.f,
 		ESuggestProjVelocityTraceOption::DoNotTrace))
 	{
+		// GetSafeNormal gets the direction of the vector you provide (the unit vector)
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		//UE_LOG(LogTemp, Warning, TEXT("Aiming at %s"), *AimDirection.ToString());
 		MoveBarrelTowards(AimDirection);
@@ -55,7 +56,7 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
 	// Move the barrel the right amount this frame
 	// Given a max elevation speed, and the frame time
 
-	Barrel->Elevate(5.0f);
+	Barrel->Elevate(DeltaRotator.Pitch);
 }
 
 
