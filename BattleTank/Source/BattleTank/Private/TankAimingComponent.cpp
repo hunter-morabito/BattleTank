@@ -57,6 +57,8 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
 	// Given a max elevation speed, and the frame time
 
 	Barrel->Elevate(DeltaRotator.Pitch);
+	Barrel->Rotate(DeltaRotator.Yaw);
+
 }
 
 
