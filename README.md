@@ -59,3 +59,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Review Our Execution Flow
 * How To Report Bugs
 * Using Clamp() to Limit Values
+* CHALLENGE - Turret Rotation 
+* CHALLENGE - Turret Rotation Pt. 2

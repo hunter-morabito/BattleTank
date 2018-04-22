@@ -13,10 +13,13 @@ ATank::ATank()
 	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("Aiming Component"));
 }
 
-void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
+void ATank::SetBarrelTurretReferences(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet)
 {
 	TankAimingComponent->SetBarrelReference(BarrelToSet);
+	TankAimingComponent->SetTurretReference(TurretToSet);
 }
+
+
 
 // Called when the game starts or when spawned
 void ATank::BeginPlay()

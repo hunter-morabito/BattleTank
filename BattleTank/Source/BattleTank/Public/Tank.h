@@ -7,6 +7,7 @@
 #include "Tank.generated.h"
 
 class UTankBarrel;
+class UTankTurret;
 class UTankAimingComponent;
 
 UCLASS()
@@ -19,7 +20,7 @@ public:
 	void AimAt(FVector);
 
 	UFUNCTION(BlueprintCallable,Category = Setup)
-	void SetBarrelReference(UTankBarrel* BarrelToSet);
+	void SetBarrelTurretReferences(UTankBarrel* BarrelToSet, UTankTurret* TurretToSet);
 
 
 protected:
@@ -35,5 +36,5 @@ private:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	 
 	UPROPERTY(EditAnywhere, Category = Firing)
-	float LaunchSpeed = 100000; // TODO find sesible default
+	float LaunchSpeed = 4000; // TODO find sesible default
 };
