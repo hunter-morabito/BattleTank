@@ -62,3 +62,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * CHALLENGE - Turret Rotation 
 * CHALLENGE - Turret Rotation Pt. 2
 * Setting Up Projectiles
+* Working Around Awkward Bugs
