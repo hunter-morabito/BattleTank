@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "GameFramework/ProjectileMovementComponent.h"
+// Class Header is first to be included
 #include "Projectile.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
 
 // Sets default values
