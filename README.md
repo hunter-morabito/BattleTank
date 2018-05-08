@@ -64,3 +64,7 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Setting Up Projectiles
 * Working Around Awkward Bugs
 * Using SpawnActor<>() To Spawn
+* Projectile Movement Components
+* Making AI Tanks Fire
+* Quiz 15: Mid Section Quiz
+* Adding a Quit Button
