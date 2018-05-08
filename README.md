@@ -68,3 +68,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * Making AI Tanks Fire
 * Quiz 15: Mid Section Quiz
 * Adding a Quit Button
+* Setup Tank Throttles
